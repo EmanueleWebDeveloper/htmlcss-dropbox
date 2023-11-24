@@ -205,53 +205,100 @@ article div button{
 .main-square {
     display: flex;
     flex-wrap: wrap; 
+    width: 300px;
+    height: 300px;
+    background-color: #f5f5f5;
+}
+.main-square .parteCentrale{
+    width: 80%;
+    margin: 0 auto;
 }
 
-.sub-square {
-    width: calc(25% - 5px); 
-    height: 100px; 
+.main-square .parteCentrale p{
+    margin: 10px 0 15px 0;
+    font-size: 10px;
+}
+.main-square .parteCentrale cite{
+    font-size: 10px;
+}
+.main-square img{
+    width: 100px;
+    margin: 10px 0 15px 0;
+    
+}
+.sub-square{
+    width: calc(25% - 10px); 
+    height: 150px;
+    width: 150px; 
+    margin: 5px;
+
 }
 
 .sub-square1{
     background-color: #a2d39b;
-    background-image: url("./img/designit.svg")
+    background-image: url("./img/designit.svg");
+    height: 150px;
+    width: 150px; 
+    
 }
 .sub-square2{
     background-color: #61082b;
-    background-image: url("/img/university_of_florida.svg")
+    background-image: url("/img/university_of_florida.svg");
+    height: 150px;
+    width: 150px; 
 }
 .sub-square3{
     background-color: #0093ce;
-    background-image: url("./img/university_of_florida.svg")
+    background-image: url("./img/university_of_florida.svg");
+    height: 150px;
+    width: 150px; 
 }
 .sub-square4{
     background-color: #ff1c1c;
-    background-image: url("./img/topps.svg")
+    background-image: url("./img/topps.svg");
+    height: 150px;
+    width: 150px; 
 }
 .sub-square5{
     background-color: #d5001f;
-    background-image: url("./img/world_bicycle_relief.svg")
+    background-image: url("./img/world_bicycle_relief.svg");
+    height: 150px;
+    width: 150px; 
 }
 .sub-square6{
     background-color: #b4d0e7;
-    background-image: url("./img/hearst_corp.svg")
+    background-image: url("./img/hearst_corp.svg");
+    height: 150px;
+    width: 150px; 
 }
 .sub-square7{
     background-color: #0d2481;
-    background-image: url("./img/lonely_planet.svg")
+    background-image: url("./img/lonely_planet.svg");
+    height: 150px;
+    width: 150px; 
 }
 .sub-square8{
     background-color: #ffd830;
-    background-image: url("./img/clear_channel.svg")
+    background-image: url("./img/clear_channel.svg");
+    height: 150px;
+    width: 150px; 
 }
 
 
 
 .ProvaGratuita{
     width: 100%;
-    height: 50px;
     background-color: #b4d0e7;
-    text-align: center;
+}
+
+
+.ProvaGratuita div{
+    width: 50%;
+    height: 200px;
+    background-color: #b4d0e7;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 
