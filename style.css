@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+   
+    border: 2px dashed red;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+header div{
+   display: flex;
+   gap: 20px;
+}
+
+header div ul{
+    display: flex;
+    gap: 20px;
+}
+
+.background{
+    width: 100%;
+    background-color: #b4d0e7
+}
+
+
+main .CELESTE{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.TitoloH1{
+   text-align: center;
+   font-size: 35px;
+}
+
+.FlexColonna div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.maindue{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.maindue div h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.maindue div div label{
+    margin-right: 30px;
+}
+
+main .Tariffe{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.Professional{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Professional div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Tariffe h6{
+text-align: center;
+}
+
+.Advanced{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Advanced div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Enterprise{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Enterprise div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.UfficioVendite{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+}
+
+.UfficioVendite div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main article{
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+}
+article img{
+    width: 400px;
+}
+
+article div p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+article div h4{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+article div button{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.SecondoTitolo{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.InfoFlex div img{
+    width: 300px;
+}
+
+.InfoFlex{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
