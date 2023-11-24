@@ -196,8 +196,8 @@ article div button{
     display: flex;
   }
 
-.width{
-    width: auto;
+.width-auto{
+    width: auto!;
 }
 .main-square {
     display: flex;
