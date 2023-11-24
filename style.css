@@ -226,9 +226,10 @@ article div button{
     width: calc(25% - 10px); 
     height: 150px;
     width: 50%; 
-
 }
-
+.flex-shrink{
+    flex-shrink:0
+}
 .sub-square1{
     background-color: #a2d39b;
     background-image: url("./img/designit.svg");
