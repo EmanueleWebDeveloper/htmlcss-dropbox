@@ -160,11 +160,91 @@ article div button{
 }
 
 .InfoFlex div img{
-    width: 300px;
+    width: 100%;
 }
 
 .InfoFlex{
     display: flex;
     width: 50%;
     margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-block: 30px ;
+    margin-bottom: 100px;
 }
+.InfoFlex div{
+    flex-basis: calc(100% / 3 - 1em);
+}
+
+.InfoFlex div h4{
+    margin: 10px 0 10px 0;
+}
+
+.infoUso{
+    margin: 0 auto;
+    width: 50%;
+}
+.infoUso h2{
+    margin: 0px 0 20px 0;
+}
+.infoUso span a{
+    margin: 0px 0 40px 0;
+}
+
+/* .Sponsor div {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border: 2px solid red;
+} */
+
+.container {
+    display: flex;
+  }
+
+.main-square {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.sub-square {
+    width: calc(25% - 5px); 
+    height: 100px; 
+}
+
+.sub-square1{
+    background-color: #a2d39b;
+    background-image: url("./img/designit.svg")
+}
+.sub-square2{
+    background-color: #61082b;
+    background-image: url("/img/university_of_florida.svg")
+}
+.sub-square3{
+    background-color: #0093ce;
+    background-image: url("./img/university_of_florida.svg")
+}
+.sub-square4{
+    background-color: #ff1c1c;
+    background-image: url("./img/topps.svg")
+}
+.sub-square5{
+    background-color: #d5001f;
+    background-image: url("./img/world_bicycle_relief.svg")
+}
+.sub-square6{
+    background-color: #b4d0e7;
+    background-image: url("./img/hearst_corp.svg")
+}
+.sub-square7{
+    background-color: #0d2481;
+    background-image: url("./img/lonely_planet.svg")
+}
+.sub-square8{
+    background-color: #ffd830;
+    background-image: url("./img/clear_channel.svg")
+}
+
+
+
+
