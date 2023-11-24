@@ -289,16 +289,68 @@ article div button{
 .ProvaGratuita{
     width: 100%;
     background-color: #b4d0e7;
+    height: 200px;
+    display: flex;
+    align-items: center;
 }
 
 
 .ProvaGratuita div{
     width: 50%;
-    height: 200px;
     background-color: #b4d0e7;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    gap: 30px;
+}
+.ProvaGratuita div h2{
+    color:#610829;
 }
 
+.Domande{
+    width: 100%;
+    margin-top: 50px;
+}
+.Domande div{
+    width: 50%;
+    margin: 0 auto;
+}
+.Domande div p{
+   font-size: 13px;
+}
+.Domande div p span{
+    margin-left: 100px;
+ }
 
+ .Domande div hr{
+    margin: 20px 0 20px 0;
+ }
+
+ footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+ }
+
+.ContenitoreFooter{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.ContenitoreFooter h3{
+    margin: 30px 0 10px 0;
+}
+
+.ContenitoreFooter li{
+    margin: 0 0 8px 0;
+}
+
+.lingua{
+    width: 65%;
+    margin: 0 auto;
+    margin-block: 20px;
+    
+
+}
