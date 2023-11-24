@@ -204,7 +204,7 @@ article div button{
     background-color: #f5f5f5;
 }
 .main-square .parteCentrale{
-    width: 80%;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -218,13 +218,11 @@ article div button{
 .main-square img{
     width: 100px;
     margin: 10px 0 15px 0;
-    
 }
 .green-square{
     width: calc(25% - 10px); 
     height: 150px;
-    width: 150px; 
-    margin: 5px;
+    width: 50%; 
 
 }
 
