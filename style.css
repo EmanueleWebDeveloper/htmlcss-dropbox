@@ -7,28 +7,25 @@
 html{
     font-family: 'Times New Roman', Times, serif;
 }
-header{
-    width: 100%;
-    border: 2px dashed red;
-}
 
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
+header a{
+    text-decoration: none;
+    color: black;
+}
 li{
     list-style-type: none;
     display: inline-block;
     padding: 5px 5px ;
 }
 
-header{
-    text-decoration: none;
-    color: black;
-}
 header div{
    display: flex;
    gap: 20px;
