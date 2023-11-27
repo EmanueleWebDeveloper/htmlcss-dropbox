@@ -24,7 +24,7 @@ header a{
     text-decoration: none;
     color: black;
 }
-li{
+header li{
     list-style-type: none;
     padding: 5px 5px ;
 }
@@ -84,7 +84,7 @@ main .CELESTE{
 
 .FlexColonna div .bottonedue{
     background-color: #0061ff;
-    padding: 10px 10px;
+    padding: 5px 10px;
     width: 210px;
     text-decoration: none;
     color: white;
@@ -95,7 +95,6 @@ main .CELESTE{
 }
 .FlexColonna{
     position: relative;
-    
 }
 main picture img{
     position: absolute;
@@ -274,7 +273,7 @@ article div button{
 }
 
 
-.container {
+.container{
     display: flex;
   }
 
@@ -315,34 +314,58 @@ article div button{
 .sub-square1{
     background-color: #a2d39b;
     background-image: url("./img/designit.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sub-square2{
     background-color: #61082b;
-    background-image: url("/img/university_of_florida.svg");
+    background-image: url("./img/world_bicycle_relief.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sub-square3{
     background-color: #0093ce;
     background-image: url("./img/university_of_florida.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sub-square4{
     background-color: #ff1c1c;
     background-image: url("./img/topps.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sub-square5{
     background-color: #d5001f;
     background-image: url("./img/world_bicycle_relief.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sub-square6{
     background-color: #b4d0e7;
     background-image: url("./img/hearst_corp.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sub-square7{
     background-color: #0d2481;
     background-image: url("./img/lonely_planet.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sub-square8{
     background-color: #ffd830;
     background-image: url("./img/clear_channel.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .ProvaGratuita{
@@ -414,7 +437,8 @@ article div button{
 }
 
 .ContenitoreFooter li{
-    line-height: 20px;
+    line-height: 30px;
+    list-style-type: none;
 }
 
 .margin{
