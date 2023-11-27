@@ -84,9 +84,10 @@ main .CELESTE{
 
 .FlexColonna div .bottonedue{
     background-color: #0061ff;
-    padding: 10px 15px;
-    width: 200px;
+    padding: 10px 10px;
+    width: 210px;
     text-decoration: none;
+    color: white;
 }
 
 .FlexColonna .Freccia{
@@ -94,6 +95,7 @@ main .CELESTE{
 }
 .FlexColonna{
     position: relative;
+    
 }
 main picture img{
     position: absolute;
@@ -416,7 +418,7 @@ article div button{
 }
 
 .margin{
-    margin: 100px 0 100px 0;
+    margin: 10px 0 100px 0;
 }
 .linguadue{
     width: 60%;
