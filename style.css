@@ -5,7 +5,7 @@
 }
 
 html{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 header{
@@ -13,7 +13,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;  
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+
 }
 
 header a{
@@ -22,18 +26,23 @@ header a{
 }
 li{
     list-style-type: none;
-    display: inline-block;
     padding: 5px 5px ;
+}
+
+header li:hover{
+    border-bottom: 3px solid black;
 }
 
 header div{
    display: flex;
    gap: 20px;
+
 }
 
 header div ul{
     display: flex;
     gap: 20px;
+    
 }
 
 header button{
@@ -42,13 +51,19 @@ header button{
     border: none;
     color: white;
 }
+
+header button:hover{
+    opacity: 0.8;
+}
 .background{
     width: 100%;
     background-color: #b4d0e7;
     margin: 0 0 130px;
 }
 
-
+main{
+    padding-top: 70px;
+}
 main .CELESTE{
     width: 60%;
     margin: 0 auto;
@@ -67,11 +82,11 @@ main .CELESTE{
     margin-top: 30px;
 }
 
-.bottone2{
+.FlexColonna div .bottonedue{
     background-color: #0061ff;
     padding: 10px 15px;
     width: 200px;
-    color: white;
+    text-decoration: none;
 }
 
 .FlexColonna .Freccia{
@@ -91,7 +106,9 @@ main picture img{
     width: 50%;
     margin: 0 auto;
 }
-
+.maindue input{
+    margin-bottom: 30px;
+}
 .maindue div h3{
     font-size: 30px;
     margin-bottom: 30px;
@@ -120,30 +137,34 @@ main .Tariffe{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
+    
+}
+.containerx{
+    padding: 20px;  
 }
 
 .Professional div{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
-.Tariffe h6{
+.celle{
+    border: 1px solid lightgray;
     text-align: center;
+    padding: 10px;
 }
-
 .Advanced{
     border: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
+    
 }
 
 .Advanced div{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .Enterprise{
@@ -151,28 +172,38 @@ main .Tariffe{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
 }
+
 
 .Enterprise div{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
-.UfficioVendite{
+.Containerdue{
     display: flex;
     width: 50%;
     margin: 0 auto;
-    border: 1px solid lightgray;
-    padding: 25px;
-    margin-block: 30px;
+    gap: 30px;
+    margin-block: 20px;
 }
-
-.UfficioVendite div {
+.Enterprisedue{
+    border: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.team{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px; 
+}
+.containera{
+    display: flex;
+    padding: 10px;
+    gap: 30px;
 }
 
 main article{
@@ -351,6 +382,10 @@ article div button{
 .Domande div p{
    font-size: 13px;
 }
+
+.Domande div p:hover{
+    
+}
 .Domande div p span{
     margin-left: 100px;
  }
@@ -377,10 +412,20 @@ article div button{
 }
 
 .ContenitoreFooter li{
-    margin: 0 0 8px 0;
+    line-height: 20px;
 }
 
-.lingua{
+.margin{
+    margin: 100px 0 100px 0;
+}
+.linguadue{
     width: 60%;
     margin: 0 auto;
 }
+
+.lingua{
+    border-top: 1px solid white;
+    margin:10px 0 20px 0;
+    padding-top: 20px;
+}
+
